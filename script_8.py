@@ -29,7 +29,7 @@ TCTGCCCACCTTGGTCCCCATTTGCTGGGATTACAGCATGAGCGACCACCAGTCTGTTGCCCCCTACTTGTTTTT"
 aligner = Align.PairwiseAligner()
 alignments = aligner.align(seq_1, seq_2)
 
-n = 0
+n = 3
 alignment = alignments[n]
 
 coord_matrix = np.zeros((2, len(alignment.coordinates[0])))
